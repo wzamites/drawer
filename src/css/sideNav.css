@@ -1,0 +1,65 @@
+html {
+  padding-left: 80px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 80px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #282828;
+  overflow-x: hidden;
+  transition: 0.3s;
+  white-space: nowrap;
+  color: #818181;
+}
+
+.sidenav:hover {
+  width: 375px
+}
+
+.sidenav:hover form input {
+  width: 331px
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 28px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: white;
+}
+
+.navTitle {
+  padding: 0 0 0 20px;
+}
+
+.logo {
+  padding-right: 28px;
+}
+
+.big {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+}
+
+.box {
+  display: flex;
+  align-items:center;
+}
+
+.top {
+  height: 56px;
+}
+
+.icon {
+  min-width: 24px;
+  min-height: 24px;
+}

@@ -1,5 +1,7 @@
 import React from 'react';
-import './App.css';
+import './css/App.css';
+import './css/sideNav.css';
+import './css/search.css';
 import Contents from './Contents';
 import Nav from './Nav';
 
